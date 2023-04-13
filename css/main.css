@@ -125,10 +125,10 @@ footer a{
 /*-----------------------------------------------------------------------------------------*/
 @font-face {
 	font-family: 'Futura PT'; 
-	src: url(/css/FuturaPT-Light.ttf);
-    src: url(/css/FuturaPT-Light.eot);
-    src: url(/css/FuturaPT-Light.woff);
-    src: url(/css/FuturaPT-Light.woff2);
+	src: url(/css/fonts/FuturaPT-Light.ttf);
+    src: url(/css/fonts/FuturaPT-Light.eot);
+    src: url(/css/fonts/FuturaPT-Light.woff);
+    src: url(/css/fonts/FuturaPT-Light.woff2);
     font-weight: 300;
     font-style: normal;
 }
