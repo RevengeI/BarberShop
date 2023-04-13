@@ -1,0 +1,80 @@
+a, p, h1{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+body, p, h1{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+}
+nav{
+    background: rgb(185 226 239);
+    display: flex;
+    width: 88vw;
+    height: 50px;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+nav section{
+    display: inherit;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+nav section span:first-child{
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+}
+nav section span:last-child{
+    font-size: 20px;
+    display: flex;
+    gap: 50px;
+}
+nav a, p{
+    font-family: system-ui;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+nav a:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.--col1{
+    background: url(../img/bacground.jpg) no-repeat center center fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+.--col1 p{
+    color: aliceblue;
+    font-size: 50px;
+    line-height: 36px;
+    font-family: fangsong;
+}
+.--col1 span{
+    background-color: #25cfc752;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+@font-face {
+	font-family: 'Futura PT'; 
+	src: url(/css/FuturaPT-Light.ttf);
+    src: url(/css/FuturaPT-Light.eot);
+    src: url(/css/FuturaPT-Light.woff);
+    src: url(/css/FuturaPT-Light.woff2);
+    font-weight: 300;
+    font-style: normal;
+}
