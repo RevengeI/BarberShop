@@ -7,17 +7,18 @@ body, p, h1{
     padding: 0;
 }
 html{
-    background-color: rgb(237, 255, 255);
+    background-color: rgb(185 226 239);
 }
 main{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
 }
 nav{
     background: rgb(185 226 239);
     display: flex;
-    width: 88vw;
+    width: 89,5vw;
     height: 50px;
     padding: 10px;
     padding-left: 100px;
@@ -49,7 +50,10 @@ nav a:hover{
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
 }
-
+.--col1, .--col2, .--col3{
+    display: flex;
+    flex-direction: column;
+}
 .--col1{
     background: url(../img/bacground.jpg) no-repeat center center fixed;
     display: flex;
@@ -71,6 +75,51 @@ nav a:hover{
     justify-content: center;
     padding: 10px;
     border-radius: 10px;
+}
+.--col2{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+li{
+    font-size: 20px;
+}
+main h1:first-child{
+    text-align: center;
+    font-size: 32px;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.gallery span{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+.gallery img{
+    width: 300px;
+    border-radius: 50px;
+}
+footer{
+    display: flex;
+    height: 80px;
+    padding: 15px;
+    background: #045266;
+    margin-top: 100px;
+}
+footer span{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+footer a{
+    color: #b3eefb;
 }
 
 /*-----------------------------------------------------------------------------------------*/
