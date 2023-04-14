@@ -55,7 +55,11 @@ nav a:hover{
     flex-direction: column;
 }
 .--col1{
-    background: url(../img/bacground.jpg) no-repeat center center fixed;
+    background: url(../img/bac.webp) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
